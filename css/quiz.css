@@ -1,0 +1,82 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  z-index: 0;
+}
+body h1 {
+  font-size: clamp(1rem, 10vw, 70px);
+  word-wrap: break-word;
+  text-align: center;
+}
+body #check, body #question {
+  display: inline-block;
+  vertical-align: middle;
+}
+body .check {
+  height: clamp(1rem, 5vw, 35px);
+  width: clamp(1rem, 5vw, 35px);
+  margin-right: 3vw;
+}
+body h2 {
+  font-size: clamp(1rem, 7vw, 40px);
+}
+body button, body .answer {
+  font-size: clamp(1rem, 7vw, 40px);
+  line-height: 1.5;
+}
+body .answer {
+  border: clamp(0px, 0.5vw, 3px) #8ecce7 solid;
+  margin: 5vh 1rem 1rem 1rem;
+}
+body .contents {
+  z-index: 3;
+}
+body .container {
+  position: relative;
+}
+body .container .element1 {
+  height: clamp(0px, 50vh, 50vw);
+  width: clamp(0px, 50vw, 50vh);
+  background-color: red;
+  opacity: 0;
+  border-radius: 50%;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+body .container .element1 .element2 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  background-color: #D7F3FE;
+  z-index: -1;
+}
+body .container .element3 {
+  height: clamp(0px, 7.5vh, 7.5vw);
+  width: clamp(0px, 50vw, 50vh);
+  background-color: blue;
+  opacity: 0;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  z-index: -1;
+}
+body .container .element3 .element4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+  z-index: -3;
+}/*# sourceMappingURL=quiz.css.map */

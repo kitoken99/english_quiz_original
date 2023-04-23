@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+body h1 {
+  font-size: clamp(1rem, 10vw, 60px);
+}
+body h2 {
+  font-size: clamp(1rem, 7vw, 35px);
+}
+
+table {
+  margin: auto;
+  max-width: 800px;
+}/*# sourceMappingURL=result.css.map */

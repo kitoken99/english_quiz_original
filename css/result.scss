@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    h1{
+        font-size: clamp(1rem, 10vw, 60px);
+    }
+    h2{
+        font-size: clamp(1rem, 7vw, 35px);
+    }
+}
+table{
+    margin: auto;
+    max-width: 800px;
+}

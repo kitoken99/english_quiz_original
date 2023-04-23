@@ -1,0 +1,30 @@
+$btnColor:#93d4ef;
+$btnHColor: #9bf0ff;
+main{
+    select{
+        padding-right:clamp(1px, 25vw, 2000px);
+        font-size: clamp(1rem, 2vw, 20px);
+        margin-bottom: 2vh;
+    }
+    .form-check-input{
+        margin-bottom: 2vh;
+    }
+    .submit{
+        background-color: $btnColor;
+        border: none;
+        border-radius: 8px;
+        font-size: clamp(1rem, 5vw, 35px);
+        padding: 0 5vw;
+        line-height: 1.8;
+        transition: background-color 0.3s ease;
+    }
+    .submit:hover{
+        background-color: $btnHColor;
+    }
+    .point{
+        width: 10vw;
+    }
+    .points{
+        margin: auto auto;
+    }
+}

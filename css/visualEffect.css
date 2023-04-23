@@ -1,0 +1,6 @@
+body .correctAnswer {
+  background-color: red;
+}
+body .hidden {
+  visibility: hidden;
+}/*# sourceMappingURL=visualEffect.css.map */

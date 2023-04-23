@@ -1,0 +1,26 @@
+$navColor:#8ecce7;
+$btnColor:#93d4ef;
+$btnHColor: #9bf0ff;
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    h1{
+        font-family: 'Yuji Syuku', serif;
+        font-size: clamp(4rem, 10vw, 100px);
+    }
+    h2{
+        font-family: 'Yuji Syuku', serif;
+        font-size: clamp(1.5rem, 3vw, 30px);
+    }
+    p{
+        font-family: 'Noto Serif JP', serif;
+    }
+    .container{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}

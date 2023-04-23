@@ -1,0 +1,22 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+body h1 {
+  font-family: "Yuji Syuku", serif;
+  font-size: clamp(4rem, 10vw, 100px);
+}
+body h2 {
+  font-family: "Yuji Syuku", serif;
+  font-size: clamp(1.5rem, 3vw, 30px);
+}
+body p {
+  font-family: "Noto Serif JP", serif;
+}
+body .container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=title.css.map */

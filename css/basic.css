@@ -1,0 +1,25 @@
+body {
+  background-color: #D7F3FE;
+}
+
+.navbar {
+  background-color: #8ecce7;
+  margin-bottom: 4vh;
+}
+
+button {
+  background-color: #93d4ef;
+  border: none;
+  border-radius: 8px;
+  font-size: clamp(2rem, 4vw, 35px);
+  line-height: 1.8;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #9bf0ff;
+}
+
+p {
+  font-size: clamp(1rem, 2vw, 20px);
+}/*# sourceMappingURL=basic.css.map */

@@ -1,0 +1,26 @@
+main select {
+  padding-right: clamp(1px, 25vw, 2000px);
+  font-size: clamp(1rem, 2vw, 20px);
+  margin-bottom: 2vh;
+}
+main .form-check-input {
+  margin-bottom: 2vh;
+}
+main .submit {
+  background-color: #93d4ef;
+  border: none;
+  border-radius: 8px;
+  font-size: clamp(1rem, 5vw, 35px);
+  padding: 0 5vw;
+  line-height: 1.8;
+  transition: background-color 0.3s ease;
+}
+main .submit:hover {
+  background-color: #9bf0ff;
+}
+main .point {
+  width: 10vw;
+}
+main .points {
+  margin: auto auto;
+}/*# sourceMappingURL=menu.css.map */

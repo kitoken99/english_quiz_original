@@ -1,0 +1,26 @@
+$mainColor:#D7F3FE;
+$navColor:#8ecce7;
+$btnColor:#93d4ef;
+$btnHColor: #9bf0ff;
+body{
+    background-color: $mainColor;
+}
+.navbar{
+    background-color: $navColor;
+    margin-bottom: 4vh;
+}
+button {
+    background-color: $btnColor;
+    border: none;
+    border-radius: 8px;
+    font-size: clamp(2rem, 4vw, 35px);
+    line-height: 1.8;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: $btnHColor;
+}
+p{
+    font-size: clamp(1rem, 2vw, 20px);
+}
+
